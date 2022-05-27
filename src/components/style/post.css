@@ -1,0 +1,56 @@
+.card{
+    border: 1px solid gray;
+    margin-top: 3rem;
+    border-radius: .3rem;
+}
+.p-top{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
+#ava{
+    flex-grow: .2;
+}
+#avatar{
+    width: 3rem;
+    height: 3rem;
+    padding: 1px;
+    border: 1px solid gray;
+    border-radius: 15rem;
+    background-color: rgb(219, 237, 243);
+    margin: .2rem;
+}
+#uid{
+    font-size: larger;
+    font-weight: bold;
+    display: inline;
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+#dot{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 1px;
+    margin-right: .4rem;
+    flex-grow: 8;
+    text-align: right;
+}
+#p-img{
+    width: 32rem;
+    height: 25rem;
+    padding: 5px;
+}
+.post-buttom{
+    padding: 8px;
+    display: flex;
+}
+.post-buttom img{
+    margin-left: .5rem;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.post-buttom #1,#2,#3{
+    flex-grow:1;
+}
+.post-buttom #4{
+    flex-grow: 7;
+}

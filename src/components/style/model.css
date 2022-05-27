@@ -1,0 +1,29 @@
+.list,.alert{
+    position: fixed;
+    background-color: rgba(211, 211, 211, 0.562);
+    width: 20rem;
+    text-align: center;
+    border-radius: .5rem;
+    top: 40%;
+    left: 60%;
+    margin-top: -100px; 
+    margin-left: -250px; 
+}
+
+.list td{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+#close{
+    width: 100%;
+    padding: 1px;
+    margin-top: 12rem;
+}
+.alert{
+    width: 22rem;
+    background-color: rgba(211, 211, 211, 0.562);
+}
+.alert img{
+    width: 5rem;
+    height: 5rem;
+}
